@@ -1,0 +1,76 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<title>StudentProfile</title></head>
+<style>
+</style>
+<body>
+<div class="container" style="margin:auto;height:600px;"> 
+<form>
+<fieldset>
+<legend>Student Profile</legend>
+    <table cellspacing="5px" cellpadding="5%" align="center">  
+       <tr>  
+              <td  align="right">Hall Ticket No:</td>  
+              <td ><input type="text" name="htno"></td>  
+       </tr>  
+       <tr>  
+              <td align="right">Name:</td>  
+              <td><input type="text" name="sname"></td>  
+       </tr> 
+       <tr>  
+              <td align="right">Father's Name:</td>  
+              <td><input type="text" name="fname"></td>  
+       </tr>  
+       <tr>  
+              <td align="right">Date of Birth</td>  
+              <td><input type="date" name="dob">  
+        </td>  </tr>
+<tr>  
+              <td align="right">Gender:</td>  
+              <td>
+        <input type="radio" name="gender" checked>Male
+  <input type="radio" name="gender">Female
+</td></tr> 
+  <tr>  <td align="right">Year:</td>  
+        <td><select name="year">  
+            <option selected>BE 1/4</option>  
+            <option>BE 2/4</option>  
+            <optiON>BE 3/4</option> 
+            <option>BE 4/4</option>  
+            </select>                   
+        </td>
+        <td align="right">Semester:</td> 
+        <td><input type="number" name="semester" min="1" max="8">                  
+        </td>    
+       </tr> 
+            <tr>  <td align="right">Branch:</td>  
+        <td><select name="branch">  
+            <option>CSE</option>  
+            <option>IT</option>  
+            <option selected>MECH</option> 
+            <option>EEE</option> 
+            <option>ECE</option> 
+            <option>CIVIL</option>  
+            </select>                   
+        </td>
+        <td align="right">Section:</td> 
+        <td><select name="section">  
+            <option>A</option>  
+            <option>B</option>  
+            <option selected>-</option>  
+            </select>                   
+        </td>    
+       </tr> 
+       <tr>  
+              <td align="right">Address:</td>  
+              <td><textarea rows="3" cols="15" name="address"></textarea>  </td>   
+        </tr>  </table>
+<input type="submit" style="float:left; width:30%;margin:20px;">
+       <input type="reset" style="float:right;width:30%;margin:20px;"> 
+</fieldset>
+    </form>  
+    
+</div>
+</body>
+</html>

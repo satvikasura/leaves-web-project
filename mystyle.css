@@ -1,0 +1,65 @@
+body {
+  background-image: url("light-color-background-for-websites-10.jpg");
+}
+input[type=text],[type=password],[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display:inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.container{
+  width:500px;
+  height:300px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin:50px;
+}
+input[type=submit],[type=reset]{
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover,[type=reset]:hover {
+  background-color: #45a049;
+}
+.button1{
+ width: 10%;
+  background-color: #99bbff;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:10px;
+}
+#applications {
+  margin:auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#applications td, #applications th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#applications tr:nth-child(even){background-color: #d6d6c2;}
+#applications tr:nth-child(odd){background-color: #a3a375;}
+#applications tr:hover {background-color: #ddd;}
+
+#applications th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
